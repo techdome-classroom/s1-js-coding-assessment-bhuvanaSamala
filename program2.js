@@ -31,9 +31,5 @@ const decodeTheRing = function (s, p) {
     return dp[m][n];
 };
 
-// Example usage:
-console.log(decodeTheRing("aa", "a"));      // Output: false
-console.log(decodeTheRing("aa", "*"));      // Output: true
-console.log(decodeTheRing("cb", "?a"));     // Output: false
 
 module.exports = decodeTheRing;
