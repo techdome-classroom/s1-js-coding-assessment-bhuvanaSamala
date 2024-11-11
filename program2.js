@@ -35,14 +35,7 @@ const decodeTheRing = function (s, p) {
     return helper(0, 0);
 }
 
-console.log(decodeTheRing("aa", "a"));      
-console.log(decodeTheRing("aa", "*"));      
-console.log(decodeTheRing("cb", "?a"));     
-console.log(decodeTheRing("hello", "h*llo")); 
-console.log(decodeTheRing("secret", "sec?")); 
-console.log(decodeTheRing("codeword", "c*de")); 
-console.log(decodeTheRing("abcdef", "*f"));
-    
+ 
 
   };
   
